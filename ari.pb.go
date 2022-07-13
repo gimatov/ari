@@ -314,6 +314,8 @@ type DialplanCEP struct {
 	Exten string `protobuf:"bytes,2,opt,name=exten,proto3" json:"exten,omitempty"`
 	// Priority indicates the index at the label in the section of the dialplan
 	Priority             int64    `protobuf:"varint,3,opt,name=priority,proto3" json:"priority,omitempty"`
+	App_name             string   `protobuf:"bytes,4,opt,name=app_name,proto3" json:"app_name,omitempty"`
+	App_data             string   `protobuf:"bytes,5,opt,name=app_data,proto3" json:"app_data,omitempty"`
 	XXX_NoUnkeyedLiteral struct{} `json:"-"`
 	XXX_unrecognized     []byte   `json:"-"`
 	XXX_sizecache        int32    `json:"-"`
