@@ -9,9 +9,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/CyCoreSystems/ari/v5"
-	"github.com/CyCoreSystems/ari/v5/rid"
-	"github.com/CyCoreSystems/ari/v5/stdbus"
+	"github.com/gimatov/ari/v5"
+	"github.com/gimatov/ari/v5/rid"
+	"github.com/gimatov/ari/v5/stdbus"
 	"github.com/rotisserie/eris"
 
 	"github.com/inconshreveable/log15"

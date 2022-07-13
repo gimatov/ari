@@ -3,7 +3,7 @@ package stdbus
 import (
 	"sync"
 
-	"github.com/CyCoreSystems/ari/v5"
+	"github.com/gimatov/ari/v5"
 )
 
 // subscriptionEventBufferSize defines the number of events that each
