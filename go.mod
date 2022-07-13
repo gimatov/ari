@@ -1,4 +1,4 @@
-module github.com/CyCoreSystems/ari/v5
+module github.com/gimatov/ari/v5
 
 require (
 	github.com/go-stack/stack v1.8.0 // indirect

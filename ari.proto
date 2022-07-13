@@ -90,4 +90,10 @@ message DialplanCEP {
 
    // Priority indicates the index at the label in the section of the dialplan
    int64 priority = 3;
+
+   // Application name in the section of the dialplan
+   string app_name = 4;
+
+   // Arguments of application in the section of the dialplan
+   string app_data = 5;
 }
